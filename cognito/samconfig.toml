@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "mycogapp2"
+resolve_s3 = true
+s3_prefix = "mycogapp2"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "AppName=\"mycognapp2\" ClientDomains=\"https://mycognapp.com\" AdminEmail=\"amitraikkr760@gmail.com\" AddGroupsToScopes=\"true\""
+image_repositories = []
