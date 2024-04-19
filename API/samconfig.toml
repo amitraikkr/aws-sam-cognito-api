@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "httpapi2"
+resolve_s3 = true
+s3_prefix = "httpapi2"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "UserPoolId=\"us-east-2_MGBzGy7HH\" Audience=\"4httb3d7jfv8dc7ove12ogm11g\""
+image_repositories = []
